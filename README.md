@@ -139,7 +139,9 @@ https://github.com/user-attachments/assets/baef8306-2495-49a7-8eff-82a7d94017c6
 
 https://github.com/user-attachments/assets/3594c7ad-6f7c-4973-b829-6d34105334df
 
+## Community
 
+Stay updated through the [official channel](https://t.me/coinflashr_app) for progress tracking and feature updates.
 
 
 
